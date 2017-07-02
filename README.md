@@ -1,44 +1,23 @@
-### What is a Font Bundle?
+# Ant Design 图标 Font Buddles
 
-A Font Bundle is a folder containing one or more icon fonts that are to be used with the IconFont Sketch plugin (https://github.com/keremciu/sketch-iconfont). The IconFont plugin has commands to instal both individual icon fonts, as well as font bundles. In order to use icon fonts with the IconFont plugin, fonts can be manually installed one by one, or several fonts can be installed at once if they were packaged in a font bundle.
+## 如何安装使用
 
-This repo contains a font bundle with the most popular icon fonts.
+> For 设计师
 
-### Which fonts are in the bundle?
+1. 安装 Sketch 插件 [sketch-iconfont](https://github.com/keremciu/sketch-iconfont)。
+2. 下载并解压本仓库：[点击下载](https://github.com/ant-design/font-bundles/archive/master.zip)。
+3. 从解压的 `font-bundles-master` 目录里找到并安装 `ttf-files/anticon.ttf` 字体文件。
+4. 打开 Sketch，点开 `sketch-iconfont` 插件菜单里的 `Install a Font-Bundle`。选择刚刚解压的 `font-bundles-master` 目录并确定。
+   ![](https://gw.alipayobjects.com/zos/rmsportal/DpbyRtuMgYsnpROxorYf.png)
 
-- FontAwesome
-- Material Design Icons
-- Ion Icons
-- Simple Line Icons (@bohn002)
+**好了，您已完成安装**！现在可以点开 `sketch-iconfont` 菜单里的 `Grid Insert => anticon`，然后自由的选择图标了。
 
-### Bundle Contents
+![](https://gw.alipayobjects.com/zos/rmsportal/BEntOkYoFlADMhknMTgx.gif)
 
-- **"ttf-files"** folder: contains the fonts' TrueType (.ttf) files, which you can instal directly into your computer - see installation instructions below. If you do not install these fonts <strong>YOU WILL NOT BE ABLE TO USE THEM IN THE PLUGIN!</strong>
-- **"bundle"** folder: includes json files needed by the IconFont plugin.
-- **"fonts.json"** file - needed by the IconFont plugin.
+## 如何更新 Ant Design 的图标
 
-### Installation
+> For 程序员
 
-- Open the *"ttf-files"* folder and double-click on each font file to instal it. Consult your Mac's Help system if you need assistance on learning how to instal new fonts in your system.
-- Open Sketch, and select the "Install a font-bundle" command from the IconFont Sketch plugin. An 'Open' dialog box will appear.
-- In the Open dialog box, select the "font-bundles-master" folder you downloaded from this repo.
-- NOW, use your fonts from the IconFont plugin!
-
-### How can I build my own font-bundle?
-
-- Install your custom icon fonts in the IconFont plugin.
-- Select the "Export your font-bundle" command from the IconFont Sketch plugin.
-- Save your bundle.
-- Now, you have a bundle that you can share with your team mates - or everyone!
-
-
-# License
-
-MIT
-
-Go to the IconFont plugin:
-https://github.com/keremciu/sketch-iconfont
-
-
-
-
+```bash
+$ curl https://raw.githubusercontent.com/ant-design/ant-design/master/components/style/core/iconfont.less | node update-anticon.js
+```
