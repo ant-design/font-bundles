@@ -10,7 +10,7 @@
 4. 打开 Sketch，点开 `sketch-iconfont` 插件菜单里的 `Install a Font-Bundle`。选择刚刚解压的 `font-bundles-master` 目录并确定。
    ![](https://gw.alipayobjects.com/zos/rmsportal/DpbyRtuMgYsnpROxorYf.png)
 
-**好了，您已完成安装**！现在可以点开 `sketch-iconfont` 菜单里的 `Grid Insert => anticon`，然后自由的选择图标了。
+**好了，您已完成安装**！现在可以点开 `sketch-iconfont` 菜单里的 `Grid Insert => anticon`，便可自由地选择图标了。
 
 ![](https://gw.alipayobjects.com/zos/rmsportal/BEntOkYoFlADMhknMTgx.gif)
 
