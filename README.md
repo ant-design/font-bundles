@@ -1,4 +1,4 @@
-# Ant Design 图标 Font Buddles
+# Ant Design 图标 Font bundle of sketch-iconfont
 
 ## 如何安装使用
 
